@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css">
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <header>
+        <h1>CalcuLator</h1>
+    </header>
+    <section>
+        <div class="cont">
+            <input type="text" placeholder="Enter any Number" id="ipt" readonly="">
+        </div><br>
+        <div class="valus">
+            <div class="row">
+                <button onclick="Clc()" style="padding:1.3rem 2.1rem 1.3rem 2.2rem; color: red;">Clc</button>
+                <button onclick="Prg('/');" style="padding:1.3rem 3rem 1.3rem 3.5rem; color:green">/</button>
+                <button onclick="Prg('*')" style="padding:1.3rem 2.9rem 1.3rem 3.5rem; color:green">*</button>
+                <button onclick="Prg('-')" style="padding:1.3rem 2.9rem 1.3rem 3.5rem; color:green">-</button>
+                <button onclick="Clr()" style="padding:1rem 2.4rem 1.3rem 2.2rem; color:green">⌫</button>
+                
+            </div>
+            <div class="row">
+                <button onclick="Prg(7)">7</button>
+                <button onclick="Prg(8)">8</button>
+                <button onclick="Prg(9)">9</button>
+                <button onclick="Prg(0)">0</button>
+                <button onclick="Prg('%')" style="padding:3rem 2.8rem 3rem 2.7rem;color:green">%</button>
+            </div>
+            <div class="row">
+                <button onclick="Prg(4)">4</button>
+                <button onclick="Prg(5)">5</button>
+                <button onclick="Prg(6)">6</button>
+                <button onclick="Prg('**')" style="padding-right: 3.2rem; color:green">^</button>
+                <button class="plus"onclick="Prg('+') " style="color:green">+</button>
+            </div>
+                <div class="row">
+                <button onclick="Prg(1)">1</button>
+                <button onclick="Prg(2)">2</button>
+                <button onclick="Prg(3)">3</button>
+                <button onclick="Prg('.')">.</button>
+                <button onclick="Ans()" style="padding:3rem 2.5rem 3rem 1.9rem;color:green">Ans</button>
+            </div>
+        </div>
+    </section>
+    <script src="index.js">
+    </script>
+</body>
+
+</html>
