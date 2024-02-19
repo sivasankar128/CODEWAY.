@@ -1,0 +1,38 @@
+
+body{
+    margin:3rem;
+    padding:0;
+    font-family: 'Orbitron';
+    background-image: url('bg.jpg');
+    background-repeat: none;
+    background-size: cover;
+    display: grid;
+}
+header{
+    color:rgb(247, 246, 246);
+    font-size: 2rem;
+}
+
+#ipt{
+    width:480px;
+    height:30px;
+    text-decoration: none;
+    font-family: 'Orbitron';
+    font-size: 25px;
+    border-radius: 10px;
+    padding:10px;
+    grid-column: span 4;
+}
+button{
+    padding:2rem;
+    margin:0.2rem;
+    border: 2px solid rgb(252, 251, 251);
+    color:white;
+    background-color: black;
+    font-size: 2rem;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: rgb(253, 252, 252);
+    color:rgb(4, 4, 4);
+}
